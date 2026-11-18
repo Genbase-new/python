@@ -1,0 +1,14 @@
+sum=0
+count=0
+
+while count <=10:
+    scores=int(input('Enter the scores: '))
+    if scores%2==0:
+        sum+=scores
+        count+=1
+        average=sum/count
+    else:
+        count+=1
+        
+print(f"sum is {sum}")
+print(f"average is {average}")
